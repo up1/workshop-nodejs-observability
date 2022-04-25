@@ -7,10 +7,14 @@
 ### Run server 1 and service 2
 ```
 $npm install
-$node --require './tracing.js' app.js
-```
 
-### Start TRaing server :: Zipkin
+// Start service 1
+$npm run service1
+
+// Start service 2
+$npm run service2
+```
+### Start Tracing server :: Zipkin
 ```
 $docker container run -d -p 9411:9411 openzipkin/zipkin
 ```
