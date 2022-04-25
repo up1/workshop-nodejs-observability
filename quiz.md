@@ -1,6 +1,6 @@
 ## Quiz
 
-###เขียน Dockerfile และ docker compose สำหรับการ run project นี้
+### เขียน Dockerfile และ docker compose สำหรับการ run project นี้
 ประกอบไปด้วย
 * Service 1
 * Service 2
