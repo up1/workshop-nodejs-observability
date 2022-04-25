@@ -24,6 +24,9 @@ const counter = meter.createCounter('count_movies', {
 app.get('/movies', async function (req, res) {
 
   counter.add(1, { service_name: "service_3" });
+  counter.add(1, { service_name: "service_3", status: "success", path: "/movies" });
+  counter.add(1, { service_name: "service_3", status: "failure", path: "/movies" });
+  counter.add(1, { service_name: "service_3", status: "data not found", path: "/movies" });
 
   res.type('json')
   var delay = Math.floor( ( Math.random() * 2000 ) + 100);
