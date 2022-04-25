@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/up1/workshop-nodejs-observability/issues"
   },
-  "homepage": "https://github.com/up1/workshop-nodejs-observability#readme"
+  "homepage": "https://github.com/up1/workshop-nodejs-observability#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
