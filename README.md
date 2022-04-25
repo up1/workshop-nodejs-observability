@@ -1,4 +1,4 @@
-# Workshop Node.js Observability
+# Workshop Node.js Observability with [OpenTelemetry](https://opentelemetry.io/)
 * Centralize logging
 * Distributed tracing
 * Application metric
