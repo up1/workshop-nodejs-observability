@@ -36,7 +36,7 @@ Run
 
 ### Start [Prometheus server](https://prometheus.io/) :: Zipkin
 ```
-$docker containerrun --name prometheus -d -p 9090:9090 prom/prometheus
+$docker container run --name prometheus -d -p 9090:9090 prom/prometheus
 ```
 
 Open url = `http://localhost:9090` in web browser
